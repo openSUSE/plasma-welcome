@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-welcome\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"POT-Creation-Date: 2026-01-27 00:46+0000\n"
 "PO-Revision-Date: 2025-10-28 19:01+0100\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -252,7 +252,7 @@ msgstr "Expandiu la finestra"
 #, kde-format
 msgctxt "@info:window"
 msgid "Error loading page"
-msgstr "S'ha produït un error en carregar la pàgina"
+msgstr "S'ha produït un error mentre es carregava la pàgina"
 
 #: src/qml/PageError.qml:27 src/qml/pages/Network.qml:45
 #, kde-format
@@ -968,11 +968,16 @@ msgid "Super"
 msgstr "Súper"
 
 #: src/qml/pages/powerfulwhenneeded/MetaKey.qml:78
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "This is a terrible dad joke about the meta key on the keyboard being able "
+#| "to have many symbols. Translate it into one of similar groanworthiness if "
+#| "this is possible; if not, translate it as an empty string."
+#| msgid "I never meta key I didn't like"
 msgctxt ""
 "This is a terrible dad joke about the meta key on the keyboard being able to "
 "have many symbols. Translate it into one of similar groanworthiness if this "
-"is possible; if not, translate it as an empty string."
+"is possible; if not, translate it as an single space."
 msgid "I never meta key I didn't like"
 msgstr "La tecla meta mai arriba fins a la meta"
 
@@ -1152,7 +1157,7 @@ msgstr ""
 "es troben on esperaríeu i generalment no cal configurar res perquè vos hi "
 "sentiu còmode i sigueu productiu.<nl/><nl/>A davall hi ha una representació "
 "visual d'un escriptori Plasma habitual; moveu el punter o cliqueu damunt "
-"d'alguna cosa per a aprendre-hi!"
+"d'alguna cosa per a aprendre'n!"
 
 #: src/qml/pages/SimpleByDefault.qml:33
 #, kde-kuit-format
@@ -1317,7 +1322,7 @@ msgstr "La mascota Konqui de KDE vos dona la benvinguda a la Comunitat KDE!"
 #, kde-format
 msgctxt "@title"
 msgid "Image loading failed"
-msgstr "No s'ha pogut carregar la imatge"
+msgstr "Ha fallat mentre es carregava la imatge"
 
 #: src/qml/pages/Welcome.qml:110
 #, kde-kuit-format
